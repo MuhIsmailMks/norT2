@@ -1,4 +1,11 @@
 @media screen and (max-width: 1200px) {
+ 
+  #hero::after { 
+    height: 300px;
+    right: 0;
+    top: 60%; 
+}
+ 
   #contract {
     padding-top: 2rem !important;
   }
@@ -25,10 +32,7 @@
 
     height: auto;
   }
-
-  #hero .photo {
-    width: 400px;
-  }
+ 
 }
  
 
@@ -42,7 +46,17 @@
     .how-buy__img {
         width: 70%;
         top: 0%;
-      }
+    }
+
+    .howItem4 .how-buy__item-content{
+      max-width: 600px;
+      padding: 2rem 0;
+    }
+
+    .howItem4 .how-buy__item-content p { 
+      max-width: 280px;
+  }
+
 }
 
 @media screen and (max-width: 1599px) {
@@ -57,11 +71,12 @@
     min-height: 600px;
   }
   .how-buy__item-content {
-    padding: 15px 20px;
-    max-width: 360px;
+    padding: 50px;
+    max-width: 400px;
     min-height: 130px;
     font-size: 19px;
   }
+
   .how-buy__item:nth-child(3) {
     padding-top: 110px;
   }
@@ -90,6 +105,31 @@
 
   .social-sect{
     position: relative;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #hero::before { 
+    width: 20%;
+    height: 20vw; 
+    top:5%; 
+    z-index: 99;
+  }
+
+  #hero::after { 
+    width: 20%;
+    height: 50vw; 
+    z-index: 99;
+    top:5%; 
+  }
+
+  .tokenomics{
+    padding: 0vw 0 50vw;
+    background: url(../media/tokenomics.png) no-repeat 50% 100% ;
+  }
+
+  #contract{
+    margin-top: -21vw;
   }
 }
 
@@ -140,6 +180,22 @@
     align-self: stretch;
     min-height: auto;
   }
+
+  .how-buy__item-content{
+    padding: 3rem 0 !important;
+  }
+
+  .howItem2 .how-buy__item-content{
+    width: 100%;
+  }
+
+  .howItem1 .how-buy__item-content p,
+  .howItem3 .how-buy__item-content p,
+  .howItem1 .how-buy__item-content span,
+  .howItem3 .how-buy__item-content span{
+    width: 80%;
+  }
+
 }
 
 @media screen and (max-width: 750px) {
@@ -163,8 +219,17 @@
     }
 
     #hero .photo{
-      width: 70%;
+      width: 100% !important;
+      max-width: 100%;
     }
+
+    #hero::before { 
+      top: 7%; 
+   }
+
+    #hero::after { 
+      top: 9%; 
+   }
 
     .hero_title{
       width: 100%;
@@ -199,14 +264,36 @@
     font-size: 16px;
   }
 
-  .tokenomics__item.desk_token {
-    display: none;
+  .howItem1 .how-buy__item-content p,
+  .howItem2 .how-buy__item-content p,
+  .howItem3 .how-buy__item-content p{
+    width: 70%;
   }
 
-  .tokenomics__item.mobile_token {
-    display: block;
-    width: 50%;
-    min-width: 150px;
+  .how-buy__item-number{
+    position: absolute;
+  }
+
+  .howItem4 .how-buy__item-content span,
+  .howItem4 .how-buy__item-content p{
+    width: 60%;
+  }
+
+  /* tokenomics */ 
+  .tokenomics__item-count{
+    font-size: 25px;
+  }
+
+  .tokenomics__item-head{
+    font-size: 30px;
+  }
+
+  .supply_text{
+    font-size: 18px;
+  }
+
+  .tokenomics__item img{
+    width: 100px;
   }
 
   /* social section */

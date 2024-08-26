@@ -1120,7 +1120,7 @@ body::before{
 
 .alert .speech {
   align-items: center;
-  background-image: url('../media/speechcloud.webp');
+  background-image: url('../media/howTo1.png');
   display: flex;
   padding: 30px 45px;
   position: relative;
@@ -2019,8 +2019,17 @@ body::before{
   }
 
   .contractCopy {
-    width: 90%;
-    height: 100px;
+    width: 90%; 
+  }
+
+  .contractCopy span{
+    font-size: .7rem !important;
+  }
+
+  .contractCopy i{
+    font-size: 10px !important;
+    width: 20px;
+    height: 20px;
   }
 
   .menu_btn div {

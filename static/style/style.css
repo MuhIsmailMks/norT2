@@ -1013,39 +1013,43 @@ body {
   align-items: center;
 }
 
+.tree_images{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+
+  z-index: 0; 
+  object-fit: contain;
+}
+
+.tree_images .tree1{
+  position: absolute;
+  width: 20%;
+  height: auto;
+  max-width: 500px; 
+
+  left: 0;
+  top: 0%;
+}
+
+.tree_images .tree2{
+  position: absolute;
+  width: 20%;
+  height: auto;
+  max-width: 500px; 
+
+  right: 0;
+  top: 10%;
+}
+ 
+
 #hero .bg_hero{
   width: 550px;
 }
-
-#hero::before{
-  content: "";
-  position: absolute;
-  width: 20%;
-  height: 300px;
-
-  left: 0;
-  top: 10%;
-
-  background-image: url("../media/tree1.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat; 
-}
-
-#hero::after{
-  content: "";
-  position: absolute;
-  width: 20%;
-  height: 500px;
-
-  right: 0;
-  top: 30%;
-
-  background-image: url("../media/tree2.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat; 
-}
+ 
+ 
 
 .chart_hero{
   position: absolute;

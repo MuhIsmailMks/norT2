@@ -1,11 +1,5 @@
 @media screen and (max-width: 1200px) {
- 
-  #hero::after { 
-    height: 300px;
-    right: 0;
-    top: 60%; 
-}
- 
+  
   #contract {
     padding-top: 2rem !important;
   }
@@ -109,15 +103,13 @@
 }
 
 @media screen and (max-width: 1100px) {
-  #hero::before { 
-    width: 20%;
-    height: 20vw; 
+  .tree_images .tree1 { 
+    width: 20%; 
     top:5%;  
   }
 
-  #hero::after { 
-    width: 20%;
-    height: 50vw;  
+ .tree_images .tree2 { 
+    width: 20%; 
     top:5%; 
   }
 
@@ -235,14 +227,11 @@
       max-width: 100%;
     }
 
-    #hero::before { 
-      top: 6%; 
+    .tree_images .tree1,
+    .tree_images .tree2  { 
+      top: 10%; 
    }
-
-    #hero::after { 
-      top: 9%; 
-   }
-
+ 
     .hero_title{
       width: 100%;
     }

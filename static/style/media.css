@@ -232,7 +232,11 @@
 
     .tree_images .tree1,
     .tree_images .tree2  { 
-      top: 22%; 
+      top: 26%; 
+   }
+
+   .tree_images .tree2 {
+    /* width: 30%; */
    }
  
     .hero_title{

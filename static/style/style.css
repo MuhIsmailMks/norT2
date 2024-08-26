@@ -2590,7 +2590,7 @@ body::before{
 
 /* social section */
 footer{    
-  background-color: var(--primary); 
+  /* background-color: var(--primary);  */
   height: 20vw;
 
   display: flex;
@@ -2753,7 +2753,7 @@ footer{
   /* rotate */
   #contract{
     position: relative;
-    overflow: hidden;
+    overflow: hidden; 
       /* display: flex;
     justify-content: center;
     align-items: center;   */
@@ -2780,7 +2780,12 @@ footer{
     background-color: var(--primary); 
     -webkit-animation: rotation 70s linear infinite;
     animation: rotation 70s linear infinite;
-    z-index: -1; 
+    z-index: 0; 
+}
+
+#contract .contract_content{
+  z-index: 99 !important;
+  position: relative;
 }
 
 @-webkit-keyframes rotation {

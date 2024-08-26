@@ -587,17 +587,14 @@ html {
 
 body {
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* background-color: var(--global-body-bg); */
+  -moz-osx-font-smoothing: grayscale; 
   background-color: black;
   color: var(--text-blue);
   display: block;
   font-size: var(--paragraph);
   line-height: var(--globall-line-height);
 
-  font-family: "Midorima", cursive;
-  /* font-family: "Comic Neue", cursive; */
-  /* font-family: objective, cursive; */
+  font-family: "Midorima", cursive; 
   overflow-x: hidden;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
 }
@@ -631,9 +628,7 @@ body::before {
 #root {
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%; 
-
-  /* max-width: var(--global-width); */
+  max-width: 100%;  
 }
 
 .Midorima_font {
@@ -1437,6 +1432,10 @@ body::before {
   position: relative;
   overflow: hidden;
   z-index: 2;
+}
+
+.footer .cloud_container{
+  opacity: .2;
 }
 
 .footer a {

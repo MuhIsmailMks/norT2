@@ -456,11 +456,7 @@ button:hover {
 }
 
 .hollow_btn:hover  {
-   transform: translateX(-50%) scale(1.1)!important ;
-   -webkit-transform: translateX(-50%) scale(1.1)!important ;
-   -moz-transform: translateX(-50%) scale(1.1)!important ;
-   -ms-transform: translateX(-50%) scale(1.1)!important ;
-   -o-transform: translateX(-50%) scale(1.1)!important ;
+   transform: scale(1.1)!important ; 
 }
 
 [data-theme="negative"] .btn.hollow:hover {

@@ -110,6 +110,15 @@
     top:5%;  
   }
 
+  .hollow_btn:hover  {
+    transform: translateX(-50%) scale(1.1)!important ;
+    -webkit-transform: translateX(-50%) scale(1.1)!important ;
+    -moz-transform: translateX(-50%) scale(1.1)!important ;
+    -ms-transform: translateX(-50%) scale(1.1)!important ;
+    -o-transform: translateX(-50%) scale(1.1)!important ;
+ }
+ 
+
  .tree_images .tree2 { 
     width: 20%; 
     top:5%; 

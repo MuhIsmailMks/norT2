@@ -134,6 +134,9 @@
 }
 
 @media screen and (max-width: 991px) {
+  .hero_content{  
+    z-index: 999;
+  }
 
   .hero_content_container{
     flex-direction: column ;

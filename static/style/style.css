@@ -1978,6 +1978,7 @@ body::before{
     -moz-transition: 0.1s ease-in all;
     -ms-transition: 0.1s ease-in all;
     -o-transition: 0.1s ease-in all;
+    z-index: 1001;
   }
 
   .contractCopy {
@@ -2054,13 +2055,12 @@ body::before{
     -moz-transition: 0.2s ease-in-out;
     -ms-transition: 0.2s ease-in-out;
     -o-transition: 0.2s ease-in-out;
-    z-index: -999;
+    z-index: 1000;
   }
 
   .links.active {
     top: 100px;
     opacity: 1;
-    z-index: 1000;
   }
 
   .links ul {

@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ease: "none", 
             scrollTrigger: {
                 trigger: ".how-buy__wrap",
-                start: "0% 100%", 
+                start: "-10% 100%", 
                 end: "100% 100%",  
                 scrub: 2,  
             }
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ease: "none", 
             scrollTrigger: {
                 trigger: ".how-buy__wrap",
-                start: "0% 100%", 
+                start: "-10% 100%", 
                 end: "100% 100%",  
                 scrub: 2,  
             }
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ease: "none", 
             scrollTrigger: {
                 trigger: ".how-buy__wrap",
-                start: "0% 100%", 
+                start: "-10% 100%", 
                 end: "100% 100%",  
                 scrub: 2,  
             }
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ease: "none", 
             scrollTrigger: {
                 trigger: ".how-buy__wrap",
-                start: "0% 100%", 
+                start: "-10% 100%", 
                 end: "100% 100%",  
                 scrub: 2,  
             }

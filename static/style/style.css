@@ -443,42 +443,7 @@ button:hover {
   color: black;
   position: relative;
 }
-
-/* .btn.hollow::before,
-.btn.hollow::after {
-  content: "";
-  background-color: white;
-  border-radius: inherit;
-  display: block;
-  height: 7px;
-  position: absolute;
-  top: 5px;
-
-  transition: 0.2s;
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -ms-transition: 0.2s;
-  -o-transition: 0.2s;
-}
-
-.btn.hollow::before {
-  left: 25px;
-  width: 30px;
-}
-
-.btn.hollow::after {
-  left: 65px;
-  width: 10px;
-}
-
-.btn.hollow:hover::before {
-  left: 35px;
-}
-
-.btn.hollow:hover::after {
-  left: 75px;
-} */
-
+ 
 [data-theme="negative"] .btn.hollow {
   color: var(--negative);
 }
@@ -489,12 +454,13 @@ button:hover {
   -ms-transition: .2s;
   -o-transition: .2s;
 }
+
 .hollow_btn:hover  {
-   transform: scale(1.1)!important ;
-   -webkit-transform: scale(1.1)!important ;
-   -moz-transform: scale(1.1)!important ;
-   -ms-transform: scale(1.1)!important ;
-   -o-transform: scale(1.1)!important ;
+   transform: translateX(-50%) scale(1.1)!important ;
+   -webkit-transform: translateX(-50%) scale(1.1)!important ;
+   -moz-transform: translateX(-50%) scale(1.1)!important ;
+   -ms-transform: translateX(-50%) scale(1.1)!important ;
+   -o-transform: translateX(-50%) scale(1.1)!important ;
 }
 
 [data-theme="negative"] .btn.hollow:hover {

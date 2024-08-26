@@ -1124,9 +1124,9 @@ body::before{
   display: flex;
   padding: 30px 45px;
   position: relative;
-  width: 250px;
+  width: 180px;
 
-  font-size: 2em;
+  font-size: 1.2em;
   color: black; 
 }
 
@@ -2020,6 +2020,7 @@ body::before{
 
   .contractCopy {
     width: 90%;
+    height: 100px;
   }
 
   .menu_btn div {

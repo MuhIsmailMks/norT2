@@ -113,6 +113,10 @@
     top:5%; 
   }
 
+  .h-split .cnt-img{
+    z-index: 999;
+  }
+
   .chart_hero{
     left: 0;
     top: 17%;

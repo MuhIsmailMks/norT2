@@ -1074,10 +1074,10 @@ body::before{
   width: 10%;
   left: 2%;
   height: auto;
-
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer; 
 }
 
 .buy_hero{
@@ -1089,6 +1089,94 @@ body::before{
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer; 
+  z-index: 999;
+}
+
+.buy_hero,
+.chart_hero{
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+}
+
+.buy_hero .alert,
+.chart_hero .alert{
+  display: flex;
+    flex-flow: column nowrap;
+    opacity: 0;
+    z-index: -999;
+    position: fixed;
+    transition: all .2s ease-in-out .1s;
+}
+
+.buy_hero:hover .alert,
+.chart_hero:hover .alert{
+  opacity: 1;
+    z-index: 999;
+}
+
+.alert .speech {
+  align-items: center;
+  background-image: url('../media/speechcloud.webp');
+  display: flex;
+  padding: 30px 45px;
+  position: relative;
+  width: 250px;
+
+  font-size: 2em;
+  color: black; 
+}
+
+.chart_hero .alert .speech{
+  left: -70%;
+  margin-top: -50%;
+}
+
+.buy_hero .alert .speech{
+  right: -70%;
+  margin-top: -55%;
+}
+
+.alert .speech::before {
+  background-image: url('../media/directional.webp');
+  content: "";
+  display: block;
+  height: 35px;
+  position: absolute;
+  
+  top: 100%;
+  width: 75.5px;
+}
+
+.chart_hero .alert .speech::before{
+  right: 0;
+}
+
+.buy_hero .alert .speech::before{
+  left: 0;
+  /* bottom: -150px; */
+  transform: rotate(130deg);
+  -webkit-transform: rotate(130deg);
+  -moz-transform: rotate(130deg);
+  -ms-transform: rotate(130deg);
+  -o-transform: rotate(130deg);
+}
+
+.alert .speech, .alert .speech::before {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.buy_hero:hover,
+.chart_hero:hover{
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 
 .lampion {
@@ -1096,12 +1184,13 @@ body::before{
   animation: l15 3s infinite cubic-bezier(0.5,300,0.5,-300);
   -webkit-animation: l15 3s infinite cubic-bezier(0.5,300,0.5,-300);
 }
+
 @keyframes l15 { 
  100% {transform: rotate(0.05deg)}
 }
 
-.chart_hero img,
-.buy_hero img{
+.chart_hero .main_image,
+.buy_hero .main_image{
   width: 100%;
   height: auto;
   position: relative;

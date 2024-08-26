@@ -123,6 +123,40 @@
     top: 17%;
   }
 
+  .alert .speech{
+    max-width: 100%;
+    
+  font-size: 1em;
+  }
+
+  .chart_hero .alert .speech{
+    left: 70%; 
+  }
+
+  .buy_hero .alert .speech{
+    right: 70%; 
+  }
+
+  .chart_hero .alert .speech::before{
+    left: 0; 
+    transform: rotate(130deg);
+    -webkit-transform: rotate(130deg);
+    -moz-transform: rotate(130deg);
+    -ms-transform: rotate(130deg);
+    -o-transform: rotate(130deg);
+  }
+  
+
+  .buy_hero .alert .speech::before{
+    left: auto;
+    right:0;
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+}
+
   .tokenomics{
     padding: 0vw 0 50vw;
     background: url(../media/tokenomics.png) no-repeat 50% 100% ;

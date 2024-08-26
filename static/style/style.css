@@ -2098,7 +2098,7 @@ body::before{
   .links.active {
     top: 100px;
     opacity: 1;
-    z-index: 999;
+    z-index: 1000;
   }
 
   .links ul {

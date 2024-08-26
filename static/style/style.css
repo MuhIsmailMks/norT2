@@ -1022,6 +1022,7 @@ body {
 
   z-index: 0; 
   object-fit: contain;
+  overflow: hidden;
 }
 
 .tree_images .tree1{
@@ -1787,11 +1788,11 @@ body {
   position: absolute;
   z-index: 1;
   top: 50%;
-  transform: rotate(60deg);
-  -webkit-transform: rotate(60deg);
-  -moz-transform: rotate(60deg);
-  -ms-transform: rotate(60deg);
-  -o-transform: rotate(60deg);
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
 }
 
 .supply_text  {

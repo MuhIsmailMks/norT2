@@ -1,49 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
  
  
-
-    // hero
-    gsap.fromTo('.hero_content', 
-        {  y: '0vw'},  
-        {   
-            y: "-20vw", 
-            ease: "none", 
-            scrollTrigger: {
-                trigger: "#about",
-                start: "0% 100%", 
-                end: "100% 100%",  
-                scrub: 4,  
-            }
-        }
-    );
- 
-    gsap.fromTo('.tree1', 
-        {  y: '0vw'},  
-        {   
-            y: "20vw", 
-            ease: "none", 
-            scrollTrigger: {
-                trigger: "#hero",
-                start: "0% 100%", 
-                end: "100% 100%",  
-                scrub: 4,  
-            }
-        }
-    );
- 
-    gsap.fromTo('.tree2', 
-        {  y: '0vw'},  
-        {   
-            y: "20vw", 
-            ease: "none", 
-            scrollTrigger: {
-                trigger: "#hero",
-                start: "0% 100%", 
-                end: "100% 100%",  
-                scrub: 2,  
-            }
-        }
-    );
  
 
     // how to buy
@@ -106,36 +63,5 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
     );
-    
-
-    // nomics
-    gsap.fromTo('.tokenomics__wrap', 
-        {  y: '0vw'},  
-        {   
-            y: "-20vw", 
-            ease: "none", 
-            scrollTrigger: {
-                trigger: ".tokenomics",
-                start: "80% 100%", 
-                end: "100% 100%",  
-                scrub: 5,  
-            }
-        }
-    );
-
-    gsap.fromTo('.contract_content', 
-        { opacity: "0%" }, 
-        { 
-            opacity: "100%",  
-            ease: "none", 
-            scrollTrigger: {
-                trigger: '#contract',
-                start: "100% 100%",  
-                end: "100% 100%", 
-                scrub: 2, 
-            }
-        }
-    );
-    
-
+     
 });

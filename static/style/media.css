@@ -150,7 +150,7 @@
     margin-bottom: 30px;
   }
   .how-buy__wrapper {
-    padding: 0 1rem;
+    padding: 0rem;
     min-height: auto;
   }
   .how-buy__wrap{
@@ -286,10 +286,20 @@
   .howItem1 .how-buy__item-number,
   .howItem3 .how-buy__item-number{
     top: 0;
+    left: 1rem;
+  }
+
+  .howItem2 .how-buy__item-number,
+  .howItem4 .how-buy__item-number{
+    right: 1rem;
   }
 
   .howItem2 .how-buy__item-number{
     top: 40%;
+  }
+
+  .howItem4 .how-buy__item-content{
+    width: 100%;
   }
  
 

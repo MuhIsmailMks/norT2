@@ -1046,6 +1046,35 @@ body {
   background-repeat: no-repeat; 
 }
 
+.chart_hero{
+  position: absolute;
+  width: 10%;
+  left: 2%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buy_hero{
+  position: absolute;
+  width: 20%;
+  right: -3%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart_hero img,
+.buy_hero img{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
 .about_hero {
   font-size: 3.1rem;
   line-height: 1;
@@ -1625,6 +1654,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+
+  margin-bottom: 0px !important;
 }
  
 .title_section {
@@ -1976,7 +2008,7 @@ body {
   }
 
   .hero_img {
-    width: 100%;
+    width: 90%;
     padding-right: 5%;
     margin: 0 auto 0rem;
   }
@@ -2647,3 +2679,43 @@ footer{
               transform: rotate(1turn);
     }
   }
+
+
+  /* cloud_container */
+  .cloud_container{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 1000px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    z-index: -1;
+    /* overflow: hidden; */
+  }
+
+  .cloud_img{
+    width: 14%;
+    max-width: 400px;
+    position: absolute;
+    left:var(--left);
+    top: var(--top);
+    animation: cloud_animation 19s linear infinite;
+    -webkit-animation: cloud_animation 19s linear infinite;
+}
+
+@keyframes cloud_animation {
+  0%,100%{
+    left:var(--left);
+  }
+  30%{
+    left: calc(var(--left) - 10%);
+  }
+  70%{
+    left: calc(var(--left) + 10%);
+  }
+}

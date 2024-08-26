@@ -112,15 +112,23 @@
   #hero::before { 
     width: 20%;
     height: 20vw; 
-    top:5%; 
-    z-index: 99;
+    top:5%;  
   }
 
   #hero::after { 
     width: 20%;
-    height: 50vw; 
-    z-index: 99;
+    height: 50vw;  
     top:5%; 
+  }
+
+  .chart_hero{
+    left: 0;
+    top: 17%;
+  }
+
+  .buy_hero{
+    right: -6%;
+    top: 17%;
   }
 
   .tokenomics{
@@ -196,6 +204,10 @@
     width: 80%;
   }
 
+
+  .cloud_img{
+    width: 40%; 
+  }
 }
 
 @media screen and (max-width: 750px) {
@@ -224,7 +236,7 @@
     }
 
     #hero::before { 
-      top: 7%; 
+      top: 6%; 
    }
 
     #hero::after { 

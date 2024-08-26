@@ -823,6 +823,7 @@ body {
   width: 80px;
   height: 80px;
 }
+
  
 
 [data-theme]:not([data-ico]) {
@@ -1066,6 +1067,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.lampion {
+  transform-origin: 50% 4px;
+  animation: l15 3s infinite cubic-bezier(0.5,300,0.5,-300);
+  -webkit-animation: l15 3s infinite cubic-bezier(0.5,300,0.5,-300);
+}
+@keyframes l15 { 
+ 100% {transform: rotate(0.05deg)}
 }
 
 .chart_hero img,
@@ -2696,7 +2706,7 @@ footer{
  
     z-index: -1;
     /* overflow: hidden; */
-  }
+  } 
 
   .cloud_img{
     width: 14%;

@@ -283,6 +283,16 @@
     width: 60%;
   }
 
+  .howItem1 .how-buy__item-number,
+  .howItem3 .how-buy__item-number{
+    top: 0;
+  }
+
+  .howItem2 .how-buy__item-number{
+    top: 40%;
+  }
+ 
+
   /* tokenomics */ 
   .tokenomics__item-count{
     font-size: 25px;

@@ -1,7 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
  
- 
- 
 
     // how to buy
     gsap.fromTo('.howItem1', 
